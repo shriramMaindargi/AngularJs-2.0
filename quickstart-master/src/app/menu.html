@@ -1,0 +1,6 @@
+<div> 
+        <ul class="nav nav-tabs active">
+                <li><img [src] = "photoUrl" class="logo" style = "height:40px;" class="list-unstyled heading"></li> 
+                <li *ngFor = "let item of itemsList" role= "presentation" class="active" class="list-unstyled heading"><a [routerLink] = "item|lowercase">{{item}}</a></li>
+        </ul>
+</div>

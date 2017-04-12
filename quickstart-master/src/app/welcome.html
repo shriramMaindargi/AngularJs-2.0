@@ -1,0 +1,26 @@
+<form class="container whole panel panel-default">
+   <div class="panel-heading panelh"><h2><strong>Login</strong></h2></div>
+  <div class="form-group">
+    <label for="exampleInputEmail">Username</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Username">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+ <div class="panel-footer row">
+   <div>
+  <button type="submit" class="btn btn-success btn-lg" (click) = "login()">Login</button>
+   </div>
+  <div>
+    <a [routerLink]="forgotpassword">Forgot Password?</a>
+  </div>
+  </div>
+</form>
+
+<!--<div class="welcome container panel">
+        <h1>Hello Shriram <small>{{heading}}</small></h1>
+        <button (click) = "greet()">Click for Greeting</button>
+        <input type="text" #message (keyup) = "validate(message.value)" /><br>
+        User is typing {{messageval}}
+</div> -->
